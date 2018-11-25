@@ -20,7 +20,7 @@ function increaseRankBy(n) {
   const parent2 = document.getElementsByClassName('ranked-list')[0];
   const child = parent.children[1];
   const child2 = parent.children[2];
-  console.log(parent.html);
+  console.log(parent.innerHTML);
   for (var j = 0; j < document.querySelectorAll('.ranked-list').length; j++) {
     
   }
