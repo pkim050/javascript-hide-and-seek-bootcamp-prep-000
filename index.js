@@ -8,7 +8,7 @@ function nestedTarget() {
 
 function deepestChild() {
   const lis = document.querySelectorAll('#grand-node div');
-  console.log(lis);
+  console.log(lis.innerHTML);
   for (var i = 0; i < lis.length; i++) {
     if (i + 1 === lis.length) {
       return lis[i];
