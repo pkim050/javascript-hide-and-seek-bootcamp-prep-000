@@ -20,6 +20,6 @@ function increaseRankBy(n) {
   cnosole.log(parent);
   console.log(parent.innerHTML);
   for (var j = 0; j < parent.length; j++) {
-    parent[j].innerHTML = parseInt(parent[j].innerHTML) * n;
+    parent[j] = parseInt(parent[j]) * n;
   }
 }
