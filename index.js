@@ -16,14 +16,12 @@ function deepestChild() {
 }
 
 function increaseRankBy(n) {
-  const parent = document.querySelector('#app .ranked-list');
-  const parent2 = document.getElementsByClassName();
-  const test = parent.getElementsByTagName('li');
-  const test2 = parent2.getElementsByTagName('li');
+  const parent = document.getElementsByClassName('ranked-list')[1];
+  const parent2 = document.getElementsByClassName('ranked-list')[0];
   const child = parent.children[1];
   const child2 = parent.children[2];
-  console.log(test.length);
-  console.log(test2.length);
+  console.log(parent).length);
+  console.log(parent2.length);
   for (var j = 0; j < document.querySelectorAll('.ranked-list').length; j++) {
     
   }
