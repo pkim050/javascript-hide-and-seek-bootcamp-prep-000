@@ -17,7 +17,7 @@ function deepestChild() {
 
 function increaseRankBy(n) {
   const parent = document.querySelector('#app .ranked-list');
-  const parent2 = document.querySelector('#app .ranked-list .ranked-list');
+  const parent2 = document.getElementsByClassName();
   const test = parent.getElementsByTagName('li');
   const test2 = parent2.getElementsByTagName('li');
   const child = parent.children[1];
